@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Plant-Disease-Detection",
+			"path": "."
+		},
+		{
+			"name": "venv",
+			"path": "../leaf-diseases-detect/venv"
+		}
+	],
+	"settings": {}
+}
