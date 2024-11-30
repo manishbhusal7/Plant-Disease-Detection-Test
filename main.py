@@ -29,7 +29,6 @@
 #     else:st.write(f"Try Another Image")
 
 
-
 import cv2 as cv
 import keras
 import numpy as np
@@ -50,8 +49,11 @@ body {
     background-color: #f0f0f0 !important;
     color: #000000 !important;
 }
-h1, h2, h3 {
-    color: #2c3e50 !important;
+h1, h2, h3, h4, h5, h6, p, span, li, ul {
+    color: #2c3e50 !important; /* Darker text for headings and normal text */
+}
+a {
+    color: #3498db !important; /* Blue links */
 }
 </style>
 """
@@ -70,8 +72,11 @@ body {
     background-color: #2e2e2e !important;
     color: #ffffff !important;
 }
-h1, h2, h3 {
-    color: #ecf0f1 !important;
+h1, h2, h3, h4, h5, h6, p, span, li, ul {
+    color: #ecf0f1 !important; /* Lighter text for headings and normal text */
+}
+a {
+    color: #1abc9c !important; /* Greenish links */
 }
 </style>
 """
@@ -96,7 +101,7 @@ st.image(
 st.title("🌱 Plant Disease Detection")
 st.markdown(
     """
-    ### Welcome to Plant Disease Detection App
+    ### Welcome to the Plant Disease Detection App
     This tool uses cutting-edge **deep learning techniques** to identify plant diseases 
     from leaf images. It's trained on a dataset featuring **33 plant diseases**, 
     ensuring accurate and reliable predictions.
