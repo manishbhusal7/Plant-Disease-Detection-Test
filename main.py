@@ -103,7 +103,7 @@ st.markdown(
     """
     ### Welcome to the Plant Disease Detection App
     This tool uses cutting-edge **deep learning techniques** to identify plant diseases 
-    from leaf images. It's trained on a dataset featuring **33 plant diseases**, 
+    from leaf images. It's trained on a dataset featuring ** plant diseases**, 
     ensuring accurate and reliable predictions.
     """
 )
